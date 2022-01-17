@@ -1,0 +1,20 @@
+.element-container {
+  height: inherit;
+}
+
+.main-col-message {
+  background-color: rgba(255,168,0,0.16);
+  border: 2px solid rgba(0,0,0,0.05);
+  border-radius: 106px;
+  width: 7em;
+  height: 7em;
+  box-shadow: 0px 0px 23px .1px rgba(255,255,255,0.17);
+  color: rgba(255,255,255,0.37);
+  font-size: 1.4em;
+  font-family: 'Aclonica';
+}
+
+.footer-col-message {
+  text-shadow: 0px 0px 10px rgb(76,0,237);
+}
+
