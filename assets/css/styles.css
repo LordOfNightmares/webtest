@@ -1,5 +1,7 @@
-.element-container {
-  height: inherit;
+footer > .row > .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-col-message {
@@ -16,5 +18,15 @@
 
 .footer-col-message {
   text-shadow: 0px 0px 10px rgb(76,0,237);
+}
+
+main {
+  max-height: 90vh;
+  height: 90vh;
+}
+
+footer {
+  min-height: 10vh;
+  max-height: 10vh;
 }
 
