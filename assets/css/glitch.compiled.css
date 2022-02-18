@@ -8,9 +8,63 @@
   position: absolute;
 }
 .line:nth-child(1) {
-  animation: clip 3000ms -300ms linear infinite, glitch1 500ms -147ms linear infinite;
+  animation: clip 3000ms -300ms linear infinite, glitch1 500ms -631ms linear infinite;
 }
 @keyframes glitch1 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(0px);
+    color: #4E9A26;
+  }
+  90% {
+    transform: translateX(-4px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(-3px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(2) {
+  animation: clip 3000ms -600ms linear infinite, glitch2 500ms -315ms linear infinite;
+}
+@keyframes glitch2 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(2px);
+    color: #4E9A26;
+  }
+  90% {
+    transform: translateX(-4px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(3px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(3) {
+  animation: clip 3000ms -900ms linear infinite, glitch3 500ms -512ms linear infinite;
+}
+@keyframes glitch3 {
   0% {
     transform: translateX(0);
   }
@@ -23,65 +77,11 @@
     color: #4E9A26;
   }
   90% {
-    transform: translateX(2px);
+    transform: translateX(-1px);
     color: #AC1212;
   }
   95% {
-    transform: translateX(-4px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(2) {
-  animation: clip 3000ms -600ms linear infinite, glitch2 500ms -373ms linear infinite;
-}
-@keyframes glitch2 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(-3px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(1px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(2px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(3) {
-  animation: clip 3000ms -900ms linear infinite, glitch3 500ms -35ms linear infinite;
-}
-@keyframes glitch3 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(-3px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(0px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(1px);
+    transform: translateX(5px);
     color: #fff;
   }
   100% {
@@ -89,36 +89,9 @@
   }
 }
 .line:nth-child(4) {
-  animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -248ms linear infinite;
+  animation: clip 3000ms -1200ms linear infinite, glitch4 500ms -107ms linear infinite;
 }
 @keyframes glitch4 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(0px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(-4px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(4px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(5) {
-  animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -645ms linear infinite;
-}
-@keyframes glitch5 {
   0% {
     transform: translateX(0);
   }
@@ -135,7 +108,34 @@
     color: #AC1212;
   }
   95% {
-    transform: translateX(0px);
+    transform: translateX(-3px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(5) {
+  animation: clip 3000ms -1500ms linear infinite, glitch5 500ms -994ms linear infinite;
+}
+@keyframes glitch5 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(5px);
+    color: #4E9A26;
+  }
+  90% {
+    transform: translateX(-1px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(4px);
     color: #fff;
   }
   100% {
@@ -143,90 +143,9 @@
   }
 }
 .line:nth-child(6) {
-  animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -901ms linear infinite;
+  animation: clip 3000ms -1800ms linear infinite, glitch6 500ms -789ms linear infinite;
 }
 @keyframes glitch6 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(0px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(3px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(3px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(7) {
-  animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -949ms linear infinite;
-}
-@keyframes glitch7 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(-2px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(-4px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(0px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(8) {
-  animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -727ms linear infinite;
-}
-@keyframes glitch8 {
-  0% {
-    transform: translateX(0);
-  }
-  80% {
-    transform: translateX(0);
-    color: #fff;
-  }
-  85% {
-    transform: translateX(-3px);
-    color: #4E9A26;
-  }
-  90% {
-    transform: translateX(1px);
-    color: #AC1212;
-  }
-  95% {
-    transform: translateX(3px);
-    color: #fff;
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-.line:nth-child(9) {
-  animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -497ms linear infinite;
-}
-@keyframes glitch9 {
   0% {
     transform: translateX(0);
   }
@@ -239,11 +158,92 @@
     color: #4E9A26;
   }
   90% {
+    transform: translateX(-3px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(3px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(7) {
+  animation: clip 3000ms -2100ms linear infinite, glitch7 500ms -425ms linear infinite;
+}
+@keyframes glitch7 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(3px);
+    color: #4E9A26;
+  }
+  90% {
+    transform: translateX(1px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(0px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(8) {
+  animation: clip 3000ms -2400ms linear infinite, glitch8 500ms -371ms linear infinite;
+}
+@keyframes glitch8 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(5px);
+    color: #4E9A26;
+  }
+  90% {
+    transform: translateX(-3px);
+    color: #AC1212;
+  }
+  95% {
+    transform: translateX(4px);
+    color: #fff;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.line:nth-child(9) {
+  animation: clip 3000ms -2700ms linear infinite, glitch9 500ms -937ms linear infinite;
+}
+@keyframes glitch9 {
+  0% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+    color: #fff;
+  }
+  85% {
+    transform: translateX(0px);
+    color: #4E9A26;
+  }
+  90% {
     transform: translateX(-4px);
     color: #AC1212;
   }
   95% {
-    transform: translateX(-3px);
+    transform: translateX(-1px);
     color: #fff;
   }
   100% {
@@ -251,7 +251,7 @@
   }
 }
 .line:nth-child(10) {
-  animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -525ms linear infinite;
+  animation: clip 3000ms -3000ms linear infinite, glitch10 500ms -527ms linear infinite;
 }
 @keyframes glitch10 {
   0% {
@@ -262,15 +262,15 @@
     color: #fff;
   }
   85% {
-    transform: translateX(-4px);
+    transform: translateX(3px);
     color: #4E9A26;
   }
   90% {
-    transform: translateX(2px);
+    transform: translateX(1px);
     color: #AC1212;
   }
   95% {
-    transform: translateX(1px);
+    transform: translateX(4px);
     color: #fff;
   }
   100% {
